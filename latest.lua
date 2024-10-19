@@ -2,8 +2,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kz0x1/nsploit-loadstr
 local StarterGui = game:GetService("StarterGui")
 
 StarterGui:SetCore("SendNotification", {
-    Title = "Raz!";
-    Text = "Thanks to Raz on discord for helping me add unc. <3";
+    Title = "Hey!";
+    Text = "Thanks for using Niggasploit! Special thanks to salad, iusethis and raz for this. Made by kz <3";
     Icon = "";
     Duration = 7;
 })
