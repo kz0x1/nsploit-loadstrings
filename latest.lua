@@ -93,8 +93,9 @@ function getconnect()
     return getconnections
 end
 
-setclipboard("https://discord.gg/VxhjCgcj")
-
+-- setclipboard("https://discord.gg/VxhjCgcj")
+-- this isn't good raz grrrrr
+	
 nigga_print = function(text)
     print(text)
     task.wait(.025)
@@ -107,7 +108,7 @@ end
 
 -- // CONFIG
 function identifyexecutor()
-	 return 'NiggaSploit v1.0.1'
+	 return 'Niggasploit', '1.0.2'
 end
 
 
