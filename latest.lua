@@ -1,28 +1,20 @@
-local StarterGui = game:GetService("StarterGui")
-
-StarterGui:SetCore("SendNotification", {
-    Title = "Hey!";
-    Text = "Thanks for using Niggasploit! Special thanks to salad, iusethis and raz for this. Made by kz <3";
-    Icon = "";
-    Duration = 7;
-}
-print("Niggasploit - Executor v1.0.2")
+print("Niggasploit UI - v1.0.4")
 print("made by raz, iusethis and kz")
-print("using UI v3")
 
 -- // pls dont skid
 
 --[[ 
 
-    kz, salad, iusethis, razzoni 
-    are goated frfr ong
+hi iusethis!\pls dont fuck my code up <3
 
 ]]
 -- REQUIRED
 -- This basically adds a lot of UNC Functions and patches vulns.
 -- thanks to raz for this (owner of scorpion)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RazAPI/Scorpion/refs/heads/main/Debug/x64/Model/MainEnvironment.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RazAPI/Scorpion/refs/heads/main/Debug/x64/Model/ProtectedEnvironment.lua"))()
+-- fixing this loadstring soon :)
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/RazAPI/Scorpion/refs/heads/main/Debug/x64/Model/MainEnvironment.lua"))()
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/RazAPI/Scorpion/refs/heads/main/Debug/x64/Model/ProtectedEnvironment.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kz0x1/nsploit-loadstrings/refs/heads/main/env.lua"))()
 function getsenv(script_instance)
 	local env = getfenv(debug.info(2, 'f'))
 	return setmetatable({
@@ -94,8 +86,8 @@ function getconnect()
 end
 
 -- setclipboard("https://discord.gg/VxhjCgcj")
--- this isn't good raz grrrrr
-	
+-- this bad
+
 nigga_print = function(text)
     print(text)
     task.wait(.025)
@@ -106,9 +98,15 @@ nigga_print = function(text)
     msg.Parent.image.Image = "rbxasset://textures/DevConsole/Info.png"
 end
 
+
+
+
+
+
+
 -- // CONFIG
 function identifyexecutor()
-	 return 'Niggasploit', '1.0.2'
+	 return 'NiggaSploit v1.0.1'
 end
 
 
@@ -1567,7 +1565,7 @@ local function TUPTJBR_fake_script() -- Fake Script: StarterGui.Bar.Blur.ScriptH
 function request()
 return {
  StatusCode = 200,
- Body = '{"User-Agent": "NiggaSploit v1.0.2"}'
+ Body = '{"User-Agent"": "NiggaSploit v1.0.0'
 }
 end
 
@@ -1586,7 +1584,7 @@ local StarterGui = game:GetService("StarterGui")
 
 StarterGui:SetCore("SendNotification", {
     Title = "Niggasploit";
-    Text = "Successfully loaded! \nThanks for using! :)";
+    Text = "Successfully loaded!\nDevelopers: kz, iusethis, razzoni";
     Icon = ""; -- Optional, you can put an image asset ID here.
     Duration = 5; -- Time in seconds the notification will be displayed.
 })
@@ -1607,4 +1605,3 @@ coroutine.wrap(SWUB_fake_script)()
 coroutine.wrap(BSQQK_fake_script)()
 coroutine.wrap(BYEUD_fake_script)()
 coroutine.wrap(TUPTJBR_fake_script)()
-)
