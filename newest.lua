@@ -1,4 +1,4 @@
-print("Niggasploit - v1.0.1")
+print("Niggasploit UI - v1.0.4")
 print("made by raz, iusethis and kz")
 
 -- // pls dont skid
